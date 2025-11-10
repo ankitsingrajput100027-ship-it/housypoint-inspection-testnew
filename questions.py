@@ -1,4 +1,4 @@
-# questions_50.py
+# questions.py
 # ------------------------------------------------------
 # 45 MCQs (A: 20 Basic Civil, B: 10 Home Inspection, C: 5 RCC, D: 10 Leakage)
 # 5 Descriptive (short, report-style)
@@ -164,3 +164,4 @@ LONG_QUESTIONS = [
         "keywords": ["salt", "moisture", "scrub", "wash", "primer", "elastomeric", "coping", "drain", "seal"]
     },
 ]
+
