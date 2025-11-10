@@ -11,10 +11,7 @@ import streamlit as st
 from streamlit.components.v1 import html as st_html
 from streamlit_js_eval import get_geolocation, streamlit_js_eval  # used to read JS values (visibility/localStorage)
 
-from questions import (
-    MCQ_QUESTIONS, LONG_QUESTIONS,
-    MCQ_MARKS, LONG_MARKS, PASS_MARK, TEST_DURATION_MIN
-)
+from Housypoint_questions import (TEST_DURATION_MIN, PASS_MARK, MCQ_MARKS, LONG_MARKS, MCQ_SECTIONS, LONG_QUESTIONS, ANSWER_KEY)
 
 st.set_page_config(page_title="Housypoint Secure Test", page_icon="🛡️", layout="centered")
 
@@ -264,4 +261,5 @@ if ak == ADMIN_KEY:
         st.info("No submissions yet.")
 elif ak:
     st.error("Invalid admin key.")
+
 
